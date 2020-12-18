@@ -5,7 +5,7 @@ const mysql = require('mysql');
 const connection = mysql.createConnection({
  hostname: 'localhost',
  user: 'student',
- password: 'student',
+ password: 'student1',
  database: 'reviewsMod'
 });
 
@@ -19,3 +19,4 @@ connection.connect(err => {
 });
 //export out connection for use
 module.exports = connection;
+

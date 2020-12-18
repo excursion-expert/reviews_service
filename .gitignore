@@ -4,3 +4,4 @@ node_modules
 login.sh
 nodeinstall.txt
 
+*.pem
